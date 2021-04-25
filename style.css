@@ -61,7 +61,7 @@ body {
                   --breakpoint-medium: 500px;
                   --breakpoint-desktop: 1000px;
                   --breakpoint-large: 1400px;
-                  --color-background: #fff;
+                  --color-background: #000;
                   --color-foreground: #000;
                   --color-divider-dark: #2b2b2b;
                   --color-divider-light: #d8d8d8;
