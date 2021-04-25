@@ -1,0 +1,230 @@
+body {
+    background: black;
+  }
+  :root,[data-theme=light] {
+                  --theme-foreground: var(--color-foreground);
+                  --theme-background: var(--color-background);
+                  --theme-card-background: var(--color-card-background-light);
+                  --theme-divider: var(--color-divider-light);
+                  --theme-divider-inverted: var(--color-divider-dark)
+              }
+  
+              [data-theme=dark] {
+                  --theme-foreground: var(--color-background);
+                  --theme-background: var(--color-foreground);
+                  --theme-card-background: var(--color-card-background-dark);
+                  --theme-divider: var(--color-divider-dark);
+                  --theme-divider-inverted: var(--color-divider-light)
+              }
+  
+              :root,[data-gradient=purple] {
+                  --color-gradient-start: var(--color-gradient-purple-start);
+                  --color-gradient-end: var(--color-gradient-purple-end)
+              }
+  
+              [data-gradient=green] {
+                  --color-gradient-start: var(--color-gradient-green-start);
+                  --color-gradient-end: var(--color-gradient-green-end)
+              }
+  
+              [data-gradient=blue] {
+                  --color-gradient-start: var(--color-gradient-blue-start);
+                  --color-gradient-end: var(--color-gradient-blue-end)
+              }
+  
+              :root {
+                  --ease-cubic-in: cubic-bezier(0.55,0.055,0.675,0.19);
+                  --ease-cubic-out: cubic-bezier(0.215,0.61,0.355,1);
+                  --ease-cubic-in-out: cubic-bezier(0.645,0.045,0.355,1);
+                  --ease-circ-in: cubic-bezier(0.6,0.04,0.98,0.335);
+                  --ease-circ-out: cubic-bezier(0.075,0.82,0.165,1);
+                  --ease-circ-in-out: cubic-bezier(0.785,0.135,0.15,0.86);
+                  --ease-expo-in: cubic-bezier(0.95,0.05,0.795,0.035);
+                  --ease-expo-out: cubic-bezier(0.19,1,0.22,1);
+                  --ease-expo-in-out: cubic-bezier(1,0,0,1);
+                  --ease-quad-in: cubic-bezier(0.55,0.085,0.68,0.53);
+                  --ease-quad-out: cubic-bezier(0.25,0.46,0.45,0.94);
+                  --ease-quad-in-out: cubic-bezier(0.455,0.03,0.515,0.955);
+                  --ease-quart-in: cubic-bezier(0.895,0.03,0.685,0.22);
+                  --ease-quart-out: cubic-bezier(0.165,0.84,0.44,1);
+                  --ease-quart-in-out: cubic-bezier(0.77,0,0.175,1);
+                  --ease-quint-in: cubic-bezier(0.755,0.05,0.855,0.06);
+                  --ease-quint-out: cubic-bezier(0.23,1,0.32,1);
+                  --ease-quint-in-out: cubic-bezier(0.86,0,0.07,1);
+                  --ease-sine-in: cubic-bezier(0.47,0,0.745,0.715);
+                  --ease-sine-out: cubic-bezier(0.39,0.575,0.565,1);
+                  --ease-sine-in-out: cubic-bezier(0.445,0.05,0.55,0.95);
+                  --ease-back-in: cubic-bezier(0.6,-0.28,0.735,0.045);
+                  --ease-back-out: cubic-bezier(0.175,0.885,0.32,1.275);
+                  --ease-back-in-out: cubic-bezier(0.68,-0.55,0.265,1.55);
+                  --ease-back-out-more: cubic-bezier(0.56,0.91,0.465,1.65);
+                  --breakpoint-medium: 500px;
+                  --breakpoint-desktop: 1000px;
+                  --breakpoint-large: 1400px;
+                  --color-background: #fff;
+                  --color-foreground: #000;
+                  --color-divider-dark: #2b2b2b;
+                  --color-divider-light: #d8d8d8;
+                  --color-gray1: #767676;
+                  --color-gray50: #979797;
+                  --color-link-blue: #0075ff;
+                  --color-link-red: #fa3350;
+                  --color-card-background-dark: #111;
+                  --color-card-background-light: #f7f7f7;
+                  --color-gradient-purple-start: #e17c8f;
+                  --color-gradient-purple-end: #ab73ee;
+                  --color-gradient-green-start: #79e5df;
+                  --color-gradient-green-end: #2cbf70;
+                  --color-gradient-blue-start: #5ae4ff;
+                  --color-gradient-blue-end: #3d55ff;
+                  --color-success: #12d08c;
+                  --color-error: #d21e3e;
+                  --col: $col-width
+              }
+  .GradientBlobs-module--wrapper--27yoG {
+                  --size: 100;
+                  --opacity: 1;
+                  opacity: var(--opacity)
+              }
+  
+              .GradientBlobs-module--wrapper--27yoG.GradientBlobs-module--absolute--3Ktrg {
+                  overflow: hidden;
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  bottom: 0;
+                  left: 0;
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: center
+              }
+  
+              .GradientBlobs-module--wrapper--27yoG.GradientBlobs-module--overflow--1UP3C {
+                  overflow: initial
+              }
+  
+              .GradientBlobs-module--wrapper--27yoG.GradientBlobs-module--vignette--2PVrs:after {
+                  content: "";
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  bottom: 0;
+                  left: 0;
+                  box-shadow: inset 0 0 100vh var(--theme-background)
+              }
+  
+              @keyframes GradientBlobs-module--fade--3pEG2 {
+                  0%,to {
+                      opacity: .45
+                  }
+  
+                  50% {
+                      opacity: .1
+                  }
+              }
+  
+              @keyframes GradientBlobs-module--fadeBigger--2GXV3 {
+                  0%,to {
+                      opacity: 1
+                  }
+  
+                  50% {
+                      opacity: .5
+                  }
+              }
+  
+              .GradientBlobs-module--blobs--1bBBa {
+                  -webkit-filter: blur(40px);
+                  filter: blur(40px);
+                  width: calc(var(--size)*1.5vmax);
+                  width: max(18.75rem,calc(var(--size)*1.5vmax));
+                  height: calc(var(--size)*0.75vmax);
+                  height: max(9.375rem,calc(var(--size)*0.75vmax));
+                  animation: GradientBlobs-module--fade--3pEG2 6s infinite;
+                  animation-play-state: paused;
+                  opacity: .1
+              }
+  
+              @media(max-width: 999px) {
+                  .GradientBlobs-module--tonedUpOnSmallerScreens--1-g3G .GradientBlobs-module--blobs--1bBBa {
+                      animation:GradientBlobs-module--fadeBigger--2GXV3 6s infinite;
+                      animation-play-state: paused;
+                      opacity: .5
+                  }
+              }
+  
+              .GradientBlobs-module--blobs--1bBBa.GradientBlobs-module--isInView--3WjHR {
+                  animation-play-state: running
+              }
+  
+              .GradientBlobs-module--blob1--1uUat,.GradientBlobs-module--blob2--3Jf5n {
+                  height: 100%;
+                  width: 100%;
+                  transform-origin: center
+              }
+  
+              .GradientBlobs-module--blob2--3Jf5n {
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  bottom: 0;
+                  left: 0
+              }
+  
+              @keyframes GradientBlobs-module--move1--YHglU {
+                  0% {
+                      transform: translate3d(-30vmax,8vmax,0) scaleY(.8)
+                  }
+  
+                  50% {
+                      transform: translate3d(-12vmax,-8vmax,0) rotate(-2deg) scaleX(1.1) scaleY(.5)
+                  }
+  
+                  to {
+                      transform: translate3d(-22vmax,0,0) rotate(-14deg) scaleY(.77) scaleX(1.2)
+                  }
+              }
+  
+              .GradientBlobs-module--blob1--1uUat {
+                  transform: translate3d(-30vmax,8vmax,0);
+                  animation: GradientBlobs-module--move1--YHglU 8s var(--ease-quad-in-out) infinite alternate;
+                  animation-play-state: paused
+              }
+  
+              .GradientBlobs-module--isInView--3WjHR .GradientBlobs-module--blob1--1uUat {
+                  animation-play-state: running
+              }
+  
+              @keyframes GradientBlobs-module--move2--20aZR {
+                  0% {
+                      transform: translate3d(20vmax,-20vmax,0) scaleY(.5)
+                  }
+  
+                  50% {
+                      transform: translate3d(2vmax,0,0) rotate(-21deg) scaleY(.7) scaleX(1.4)
+                  }
+  
+                  to {
+                      transform: translate3d(10vmax,10vmax,0) rotate(2deg) scaleY(.5)
+                  }
+              }
+  
+              .GradientBlobs-module--blob2--3Jf5n {
+                  transform: translate3d(20vmax,-20vmax,0);
+                  animation: GradientBlobs-module--move2--20aZR 8s var(--ease-quad-in-out) -4s infinite alternate;
+                  animation-play-state: paused
+              }
+  
+              .GradientBlobs-module--isInView--3WjHR .GradientBlobs-module--blob2--3Jf5n {
+                  animation-play-state: running
+              }
+  
+              .GradientBlobs-module--stop1--17Yr8 {
+                  stop-color: var(--color-gradient-start)
+              }
+  
+              .GradientBlobs-module--stop2--3RrQQ {
+                  stop-color: var(--color-gradient-end)
+              }
+  
